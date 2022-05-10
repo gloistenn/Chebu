@@ -15,7 +15,7 @@ namespace chebu
                 Roma.MaxHealth = 100;
                 Roma.CurrentHealth = 100;
                 Roma.Damage = 10;
-                Roma.Name = "Roma1";
+                Roma.Name = "Roma";
 
                 Character Denys = new Character();
                 Denys.MaxHealth = 100;
