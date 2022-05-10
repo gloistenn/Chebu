@@ -17,11 +17,32 @@ namespace chebu
                 Roma.Damage = 10;
                 Roma.Name = "Roma";
 
+                Roma.Armor = Roma.Helmet + Roma.Chest + Roma.Gloves + Roma.Pants + Roma.Boots;
+                Roma.Helmet;
+                Roma.Chest;
+                Roma.Gloves;
+                Roma.Pants;
+                Roma.Boots;
+                Roma.Weapon;
+                
+
+
+                
+
+
+
+
                 Character Denys = new Character();
                 Denys.MaxHealth = 100;
                 Denys.CurrentHealth = 100;
                 Denys.Damage = 15;
                 Denys.Name = "Denys";
+
+
+
+
+
+
 
                 BattleEngine battleEngine = new BattleEngine();
                 while (Roma.IsDead != true && Denys.IsDead != true)
